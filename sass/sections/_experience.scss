@@ -1,0 +1,14 @@
+.section-experience {
+  height: 70vh;
+  background-color: $color-white;
+
+  font-size: 1.7rem;
+
+}
+
+.experience {
+  &__separator {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
