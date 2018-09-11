@@ -6,4 +6,50 @@
   background-repeat: no-repeat;
 
   background-attachment: fixed;
+
+  & .heading-secondary {
+    font-weight: 600;
+  }
+}
+
+.contact {
+
+  &__cycle {
+    position: relative;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+
+    background-color: $color-primary-light;
+    opacity: .5;
+    transition: .2s all;
+  }
+
+  &__cycle:hover {
+    opacity: .9;
+    background-color: $color-primary-dark;
+  }
+
+  &__cycle > ion-icon {
+    @include absCenter();
+    font-size: 4rem;
+  }
+
+  &__email {
+    display: inline-block;
+  }
+
+  &__email-address {
+    margin-left: 5rem;
+    color: $color-white;
+    display: inline-block;
+    font-size: 2rem;
+
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+    transform: translate(0, -50%);
+  }
 }

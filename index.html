@@ -23,7 +23,7 @@
             </div>
         </a>
     </header>
-    <section class="section-about" id="section-about">
+    <section class="section-about u-padding-bottom-medium" id="section-about">
         <div class="row u-text-center u-margin-top-big">
             <h2 class="heading-secondary">Pracuji pro lidi, kteří neradi ztrácí čas chybami.</h2>
         </div>
@@ -42,10 +42,14 @@
                     U aplikace, na které pracuji, se nemusíte bát, že byste přišli o většinu zákazníků díky fatální chybě systému,
                     nebo prolomení systému kvůli kybernetickému útoku.
                 </p>
+                <p>
+                    Studuji střední školu v Brně obor IT. V roce 2017 jsem vyhrál celorepublikový hackathon pro
+                    střední školy zaměřený na IoT. Mám za sebou školení na téma firemní vývoj softwaru a nette framework.
+                </p>
             </div>
         </div>
     </section>
-    <section class="section-experience u-padding-top-medium">
+    <section class="section-experience u-padding-top-medium u-padding-bottom-medium">
         <div class="row u-text-center u-margin-bottom-medium">
             <h2 class="heading-secondary u-uppercase">Zkušenosti</h2>
         </div>
@@ -87,19 +91,34 @@
                 Pracuji na webových aplikacích jak na back endu, tak na front endu včetně nasazovaní pomocí dockeru.
             </div>
         </div>
-        <hr class="experience__separator">
+        <hr class="experience__separator" style="margin-bottom: 0">
     </section>
 
     <section class="section-contact u-padding-top-medium">
         <div class="row u-text-center">
             <h2 class="heading-secondary u-uppercase">Kontakt</h2>
         </div>
+
+        <div class="row">
+            <div class="col-2-of-3" style="position: relative">
+                <div class="contact__cycle">
+                    <ion-icon name="mail" class="contact__email"></ion-icon>
+                </div>
+                <div class="contact__email-address">
+                    JBlazekk (zavináč) seznam (tečka) cz
+                </div>
+            </div>
+            <div class="col-1-of-3 u-text-center medium-name u-gray-text u-uppercase">
+                &nbsp;
+            </div>
+            <div class="col-1-of-3">&nbsp;</div>
+        </div>
     </section>
 
     <footer class="footer u-padding-top-medium">
-        <div class="row u-small-margin">
+        <div class="row" style="margin-bottom: 0">
             <div class="col-1-of-3">&nbsp;</div>
-            <div class="col-1-of-3 u-text-center medium-name u-gray-text u-uppercase">
+            <div class="col-1-of-3 u-text-center medium-name u-gray-text u-uppercase footer__name">
                 Jan <span class="u-red">Blažek</span>
             </div>
             <div class="col-1-of-3">&nbsp;</div>
@@ -115,6 +134,7 @@
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

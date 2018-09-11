@@ -1,12 +1,8 @@
 .section-experience {
-  height: 70vh;
+  min-height: 70vh;
   background-color: $color-white;
 
   font-size: 1.7rem;
-
-  @include respond(tab-port) {
-    text-align: center;
-  }
 }
 
 .experience {

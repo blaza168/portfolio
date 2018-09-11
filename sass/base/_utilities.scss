@@ -43,4 +43,12 @@
   }
 }
 
-.u-zero-margin { margin: 0 !important; }
+.u-padding-bottom-medium {
+  padding-bottom: 4rem !important;
+
+  @include respond(tab-port) {
+    padding-bottom: 3rem !important;
+  }
+}
+
+.u-zero-margin { margin-bottom: 0 !important; }
