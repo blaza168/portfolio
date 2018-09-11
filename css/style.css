@@ -140,6 +140,10 @@ p {
   color: #2a2b2c;
   font: normal 18px/25px Open Sans; }
 
+.medium-name {
+  color: #2a2b2c;
+  font: normal 25px Open Sans; }
+
 .u-red {
   color: red !important; }
 
@@ -187,6 +191,18 @@ p {
 
 .u-padding-top-big {
   padding-top: 8rem !important; }
+  @media only screen and (max-width: 56.25em) {
+    .u-padding-top-big {
+      padding-top: 5rem !important; } }
+
+.u-padding-top-medium {
+  padding-top: 4rem !important; }
+  @media only screen and (max-width: 56.25em) {
+    .u-padding-top-medium {
+      padding-top: 3rem !important; } }
+
+.u-zero-margin {
+  margin: 0 !important; }
 
 .img {
   width: 100%;
@@ -244,6 +260,13 @@ p {
 .section-about {
   min-height: 70vh; }
 
+.section-contact {
+  height: 45vh;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/section-contact/city.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
 .section-experience {
   height: 70vh;
   background-color: #fff;
@@ -255,6 +278,16 @@ p {
 .experience__separator {
   width: 80%;
   margin: 0 auto 3rem; }
+
+.footer {
+  height: 15vh;
+  background-color: #2a2b2c;
+  position: relative; }
+  .footer__copyright {
+    color: #eee;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%; }
 
 .header {
   height: 95vh;

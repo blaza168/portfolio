@@ -28,4 +28,19 @@
 .u-margin-top-big { margin-top: 8rem !important; }
 .u-margin-top-huge { margin-top: 10rem !important; }
 
-.u-padding-top-big { padding-top: 8rem !important; }
+.u-padding-top-big {
+  padding-top: 8rem !important;
+
+  @include respond(tab-port) {
+   padding-top: 5rem !important;
+  }
+}
+.u-padding-top-medium {
+  padding-top: 4rem !important;
+
+  @include respond(tab-port) {
+    padding-top: 3rem !important;
+  }
+}
+
+.u-zero-margin { margin: 0 !important; }

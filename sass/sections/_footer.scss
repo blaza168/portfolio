@@ -1,0 +1,12 @@
+.footer {
+  height: 15vh;
+  background-color: $color-grey-brawn;
+  position: relative;
+
+  &__copyright {
+    color: $color-grey-light;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+  }
+}
