@@ -4,11 +4,14 @@
 
   font-size: 1.7rem;
 
+  @include respond(tab-port) {
+    text-align: center;
+  }
 }
 
 .experience {
   &__separator {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
   }
 }

@@ -238,6 +238,9 @@ p {
 .u-small-margin {
   margin-bottom: 1rem !important; }
 
+.u-medium-margin {
+  margin-bottom: 3rem !important; }
+
 .section-about {
   min-height: 70vh; }
 
@@ -245,10 +248,13 @@ p {
   height: 70vh;
   background-color: #fff;
   font-size: 1.7rem; }
+  @media only screen and (max-width: 56.25em) {
+    .section-experience {
+      text-align: center; } }
 
 .experience__separator {
   width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto 3rem; }
 
 .header {
   height: 95vh;
