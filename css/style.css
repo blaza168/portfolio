@@ -326,7 +326,7 @@ p {
     width: 100%; }
 
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/code.jpg");
   background-attachment: fixed;
   background-size: cover;
